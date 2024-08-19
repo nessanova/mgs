@@ -1,335 +1,304 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <yml_catalog date="2024-08-12 12:00">
     <shop>
-        <name>MGS-Tuning Studio</name>
+        <name>Студия детейлинга</name>
         <company>MGS-Tuning Studio</company>
         <url>https://mgs-tuning-studio.com/</url>
+        <email>studio@mgs-tuning.com</email>
+        <description>Каталог детейлинг услуг</description>
         <currencies>
-            <currency id="RUB" rate="1"/>
+            <currency id="RUR" rate="1"/>
         </currencies>
         <categories>
            <category id="617987093161">Оклейка авто пленками</category>
            <category id="394172036301">Детейлинг</category>
-<category id="808904437521">Малярные и кузовные работы</category>
-<category id="404310180411">Выхлопная система</category>
-<category id="662033403961">Комплекты ковров и аксессуары</category>
+            <category id="808904437521">Малярные и кузовные работы</category>
+            <category id="404310180411">Выхлопная система</category>
+            <category id="662033403961">Комплекты ковров и аксессуары</category>
         </categories>
+
+        <sets>
+            <set id="okleyka_plenkami">
+                <name>Оклейка пленками</name>
+                <url>https://mgs-tuning-studio.com/uslugi#!/tab/355045681-1</url>
+            </set>
+			<set id="Deteyling">
+                <name>Детейлинг</name>
+                <url>https://mgs-tuning-studio.com/uslugi#!/tab/355045681-2</url>
+            </set>
+			<set id="malyarnie_i_kuzovnie_raboti">
+                <name>Малярные и кузовные работы</name>
+                <url>https://mgs-tuning-studio.com/uslugi#!/tab/355045681-3</url>
+            </set>
+			<set id="vihlopnaya_sistema">
+                <name>Выхлопная система</name>
+                <url>https://mgs-tuning-studio.com/uslugi#!/tab/355045681-4</url>
+            </set>
+            <set id="Individualniy_poshiv_kovrov">
+                <name>Индивидуальный пошив ковров и аксессуаров</name>
+                <url>https://mgs-tuning-studio.com/uslugi#!/tab/355045681-5</url>
+            </set>
+			
+        </sets>
         <offers>
             <offer id="154283692551" available="true">
                 <picture>https://static.tildacdn.com/stor3162-3838-4231-b361-316338613463/97085964.png</picture>
                 <url>https://mgs-tuning-studio.com/zashitnaya_plenka</url>
-                <price>от 119000.00</price>
-                <currencyId>RUB</currencyId>
+                <price from="true">119000.00</price>
+                <currencyId>RUR</currencyId>
+                <set-ids>okleyka_plenkami</set-ids>
                 <categoryId>617987093161</categoryId>
                 <name>Полная оклейка авто полиуретановой пленкой</name>
-                <description><![CDATA[ Оклейка антигравийной полиуретановой пленкой; кузова Вашего автомобиля - это возможность сохранить первозданный внешний вид ЛКП на срок до 5 лет. Качественная полиуретановая пленка защищает от пескоструя, сколов, царапин, городских притертостей, предает насыщенности цвету и обладает гидрофобным эфектом. ]]></description>
-                <param name="Рейтинг">4.8</param>
-                <param name="Число отзывов">121</param>
-                <param name="Годы опыта">10</param>
-                <param name="Регион">Краснодар</param>
-                <param name="Конверсия">15%</param>
+                <description>Оклейка антигравийной полиуретановой пленкой; кузова Вашего автомобиля - это возможность сохранить первозданный внешний вид ЛКП на срок до 5 лет. Качественная полиуретановая пленка защищает от пескоструя, сколов, царапин, городских притертостей, предает насыщенности цвету и обладает гидрофобным эфектом.</description>
+                 <param name="Регион">Краснодар</param>
                  <param name="Исполнитель">MGS-Tuning Studio</param>
             </offer>
             <offer id="799528822941" available="true">
                 <picture>https://static.tildacdn.com/stor3535-6436-4163-b465-366234663861/74335345.jpg</picture>
                 <url>https://mgs-tuning-studio.com/avtovinil</url>
-                <price>от 110000.00</price>
-                <currencyId>RUB</currencyId>
+                <price from="true">110000.00</price>
+                <currencyId>RUR</currencyId>
+                <set-ids>okleyka_plenkami</set-ids>
                 <categoryId>617987093161</categoryId>
                 <name>Оклейка авто виниловыми пленками</name>
-                <description><![CDATA[ Более 1000 оттенков цветов на Ваш выбор!#nbsp;Оклейка авто виниловой пленкой позволит быстро изменить внешний вид вашего авто #nbsp;за счет огромного выбора цветов и фактур виниловых пленок! ]]></description>
-                <param name="Рейтинг">4.9</param>
-                <param name="Число отзывов">200</param>
-                <param name="Годы опыта">10</param>
+                <description><Более 1000 оттенков цветов на Ваш выбор!#nbsp;Оклейка авто виниловой пленкой позволит быстро изменить внешний вид вашего авто #nbsp;за счет огромного выбора цветов и фактур виниловых пленок! ></description>
                 <param name="Регион">Краснодар</param>
-                <param name="Конверсия">12%</param>
                  <param name="Исполнитель">MGS-Tuning Studio</param>
             </offer>
             <offer id="972397234481" available="true">
                 <picture>https://static.tildacdn.com/stor3664-3135-4239-b034-376461336566/54354820.png</picture>
                 <url>https://mgs-tuning-studio.com/antichrom</url>
-                <price>от 1500.00</price>
-                <currencyId>RUB</currencyId>
+                <price from="true">1500.00</price>
+                <currencyId>RUR</currencyId>
+                <set-ids>okleyka_plenkami</set-ids>
                 <categoryId>617987093161</categoryId>
                 <name>Антихром деталей кузова</name>
-                <description><![CDATA[ Антихром деталей кузова - это оклейка хромированных элементов кузова для придания ему более стильного вида. По вашему желанию мы заклеим хром на решетке радиатора, бамперах, оконтовках дверей и на других элементах кузова. ]]></description>
-                <param name="Рейтинг">4.7</param>
-                <param name="Число отзывов">150</param>
-                <param name="Годы опыта">10</param>
-                <param name="Регион">Краснодар</param>
-                <param name="Конверсия">10%</param>
-                 <param name="Исполнитель">MGS-Tuning Studio</param>
+                <description><Антихром деталей кузова - это оклейка хромированных элементов кузова для придания ему более стильного вида. По вашему желанию мы заклеим хром на решетке радиатора, бамперах, оконтовках дверей и на других элементах кузова. ></description>
+              <param name="Регион">Краснодар</param>
+             <param name="Исполнитель">MGS-Tuning Studio</param>
             </offer>
             <offer id="964696654611" available="true">
                 <picture>https://static.tildacdn.com/stor6339-3531-4230-b330-306132333130/97820404.png</picture>
                 <url>https://mgs-tuning-studio.com/tonirovka_stekol</url>
-                <price>от 4000.00</price>
-                <currencyId>RUB</currencyId>
+                <price from="true">4000.00</price>
+                <currencyId>RUR</currencyId>
+                <set-ids>okleyka_plenkami</set-ids>
                 <categoryId>617987093161</categoryId>
                 <name>Тонировка стекол автомобиля</name>
                 <description>
-                <![CDATA[ Тонировка стекол автомобиля - это одна из наиболее популярных услуг среди автолюбителей. Для затемнения стекол используем пленки лучших производителей, такие как Llumar. ]]>
+                <Тонировка стекол автомобиля - это одна из наиболее популярных услуг среди автолюбителей. Для затемнения стекол используем пленки лучших производителей, такие как Llumar. >
                 </description>
-                <param name="Рейтинг">4.8</param>
-                <param name="Число отзывов">180</param>
-                <param name="Годы опыта">10</param>
-                <param name="Регион">Краснодар</param>
-                <param name="Конверсия">18%</param>
-                 <param name="Исполнитель">MGS-Tuning Studio</param>
+               <param name="Регион">Краснодар</param>
+             <param name="Исполнитель">MGS-Tuning Studio</param>
             </offer>
             <offer id="395658945381" available="true">
                 <picture>https://static.tildacdn.com/stor3263-3730-4736-a632-373763326634/51868015.png</picture>
                 <url>https://mgs-tuning-studio.com/tonirovanie_optiki</url>
-                <price>от 5000.00</price>
-                <currencyId>RUB</currencyId>
+                <price from="true">5000.00</price>
+                <currencyId>RUR</currencyId>
+                <set-ids>okleyka_plenkami</set-ids>
                 <categoryId>617987093161</categoryId>
                 <name>Тонировка оптики автомобиля</name>
                 <description>
-                <![CDATA[ Тонировка оптики полиуретановой пленкой- это не только один из способов сделать внешний вид автомобиля более стильным и привлекательным, но и отличная возможность дополнительной защиты от негативного воздействия окружающей среды и различных механических повреждений. ]]>
+                <Тонировка оптики полиуретановой пленкой- это не только один из способов сделать внешний вид автомобиля более стильным и привлекательным, но и отличная возможность дополнительной защиты от негативного воздействия окружающей среды и различных механических повреждений. >
                 </description>
-                <param name="Рейтинг">4.7</param>
-                <param name="Число отзывов">118</param>
-                <param name="Годы опыта">10</param>
                 <param name="Регион">Краснодар</param>
-                <param name="Конверсия">13%</param>
                 <param name="Исполнитель">MGS-Tuning Studio</param>
             </offer>
              <offer id="691406547131" available="true">
                 <picture>https://static.tildacdn.com/stor6236-3136-4462-b934-656437626636/91105114.png</picture>
                 <url>https://mgs-tuning-studio.com/deteyling_moyka_avto</url>
-                <price>от 1500.00</price>
-                <currencyId>RUB</currencyId>
+                <price from="true">1500.00</price>
+                <currencyId>RUR</currencyId>
+                 <set-ids>Deteyling</set-ids>
                 <categoryId>394172036301</categoryId>
                 <name>Детейлинг мойка автомобиля</name>
                 <description>
-                <![CDATA[ Детейлинг мойка автомобиля - это более глубокая и тщательная очистка автомобиля от различных загрязнений. В процессе мойки особенно тщательное внимание уделяется труднодоступным местам и мелким деталям. Мойка осуществляется с применением профессиональных высокотехнологичных средств в несколько этапов. ]]>
+                <Детейлинг мойка автомобиля - это более глубокая и тщательная очистка автомобиля от различных загрязнений. В процессе мойки особенно тщательное внимание уделяется труднодоступным местам и мелким деталям. Мойка осуществляется с применением профессиональных высокотехнологичных средств в несколько этапов. >
                 </description>
-                <param name="Рейтинг">4.8</param>
-                <param name="Число отзывов">118</param>
-                <param name="Годы опыта">10</param>
                 <param name="Регион">Краснодар</param>
-                <param name="Конверсия">15%</param>
                 <param name="Исполнитель">MGS-Tuning Studio</param>
             </offer>
             <offer id="504761665861" available="true">
                 <picture>https://static.tildacdn.com/stor3065-3435-4434-b966-356337356266/30807661.png</picture>
                 <url>https://mgs-tuning-studio.com/polirovka_avto</url>
-                <price>от 1000.00</price>
-                <currencyId>RUB</currencyId>
+                <price from="true">1000.00</price>
+                <currencyId>RUR</currencyId>
+                <set-ids>Deteyling</set-ids>
                 <categoryId>394172036301</categoryId>
                 <name>Полировка автомобиля</name>
                 <description>
-                <![CDATA[ Полировка кузова автомобиля - это комплекс процедур, который способствует восстановлению глубины цвета, а также устранению дефектов лакокрасочного покрытия автомобиля. ]]>
+                <Полировка кузова автомобиля - это комплекс процедур, который способствует восстановлению глубины цвета, а также устранению дефектов лакокрасочного покрытия автомобиля. >
                 </description>
-                <param name="Рейтинг">4.9</param>
-                <param name="Число отзывов">123</param>
-                <param name="Годы опыта">10</param>
                 <param name="Регион">Краснодар</param>
-                <param name="Конверсия">13%</param>
                 <param name="Исполнитель">MGS-Tuning Studio</param>
             </offer>
             <offer id="868289321141" available="true">
                 <picture>https://static.tildacdn.com/stor3439-6235-4064-a430-376663306631/16835840.png</picture>
                 <url>https://mgs-tuning-studio.com/nanesenie_keramiki</url>
-                <price>от 10000.00</price>
-                <currencyId>RUB</currencyId>
+                <price from="true">10000.00</price>
+                <currencyId>RUR</currencyId>
+                <set-ids>Deteyling</set-ids>
                 <categoryId>394172036301</categoryId>
                 <name>Нанесение керамики на кузов автомобиля</name>
                 <description>
-                <![CDATA[ Нанесение керамики на кузов автомобиля - это услуга для владельцев как новых, так и подержанных автомобилей, способная придать роскошный блеск, насыщенный цвет и мощный гидрофобный эффект ЛКП вашего автомобиля. ]]>
+                <Нанесение керамики на кузов автомобиля - это услуга для владельцев как новых, так и подержанных автомобилей, способная придать роскошный блеск, насыщенный цвет и мощный гидрофобный эффект ЛКП вашего автомобиля. >
                 </description>
-                <param name="Рейтинг">4.8</param>
-                <param name="Число отзывов">113</param>
-                <param name="Годы опыта">10</param>
                 <param name="Регион">Краснодар</param>
-                <param name="Конверсия">13%</param>
                 <param name="Исполнитель">MGS-Tuning Studio</param>
             </offer>
             <offer id="151432866951" available="true">
                 <picture>https://static.tildacdn.com/stor6263-6137-4934-b765-396231313937/93249524.png</picture>
                 <url>https://mgs-tuning-studio.com/antidoghd</url>
-                <price>от 1500.00</price>
-                <currencyId>RUB</currencyId>
+                <price from="true">1500.00</price>
+                <currencyId>RUR</currencyId>
+                <set-ids>Deteyling</set-ids>
                 <categoryId>394172036301</categoryId>
                 <name>Антидождь для автомобиля</name>
                 <description>
-                <![CDATA[ Студия детейлинга MGS-Tuning рада предложить вам услугу Антидождь, Мы нанесем на ваши стекла специальный состав для лучшего водоотведения и безопасного вождения во время дождя! ]]>
+                <Студия детейлинга MGS-Tuning рада предложить вам услугу Антидождь, Мы нанесем на ваши стекла специальный состав для лучшего водоотведения и безопасного вождения во время дождя! >
                 </description>
-                <param name="Рейтинг">4.8</param>
-                <param name="Число отзывов">103</param>
-                <param name="Годы опыта">10</param>
                 <param name="Регион">Краснодар</param>
-                <param name="Конверсия">13%</param>
                 <param name="Исполнитель">MGS-Tuning Studio</param>
             </offer>
             <offer id="600251716881" available="true">
                 <picture>https://static.tildacdn.com/stor6131-3036-4362-a361-656233623361/77539732.png</picture>
                 <url>https://mgs-tuning-studio.com/himchistka_salona</url>
-                <price>от 6000.00</price>
-                <currencyId>RUB</currencyId>
+                <price from="true">6000.00</price>
+                <currencyId>RUR</currencyId>
+                <set-ids>Deteyling</set-ids>
                 <categoryId>394172036301</categoryId>
                 <name>Химчистка салона автомобиля</name>
                 <description>
-                <![CDATA[ Химчистка салона автомобиля способна справиться даже с самыми сложными загрязнениями. В услугу комплексной химчистке входит очистка всех труднодоступных мест, поверхностей салона, потолка и сидений из любых материалов. ]]>
+                <Химчистка салона автомобиля способна справиться даже с самыми сложными загрязнениями. В услугу комплексной химчистке входит очистка всех труднодоступных мест, поверхностей салона, потолка и сидений из любых материалов. >
                 </description>
-                <param name="Рейтинг">4.8</param>
-                <param name="Число отзывов">103</param>
-                <param name="Годы опыта">10</param>
                 <param name="Регион">Краснодар</param>
-                <param name="Конверсия">13%</param>
                 <param name="Исполнитель">MGS-Tuning Studio</param>
             </offer>
             <offer id="649599738181" available="true">
                 <picture>https://static.tildacdn.com/stor3932-3666-4434-b066-373862613761/57285470.png</picture>
                 <url>https://mgs-tuning-studio.com/moyka_dvigatelya</url>
-                <price>от 5000.00</price>
-                <currencyId>RUB</currencyId>
+                 <price from="true">5000.00</price>
+                <currencyId>RUR</currencyId>
+                <set-ids>Deteyling</set-ids>
                 <categoryId>394172036301</categoryId>
                 <name>Профессиональная мойка двигателя</name>
                 <description>
-                <![CDATA[ Специалисты студии детейлинга MGS-Tuning проведут качественную мойку и консервацию элементов подкапотного пространства вашего автомобиля в короткие сроки. Мы гарантируем, что вы останетесь довольны результатом! ]]>
+                <Специалисты студии детейлинга MGS-Tuning проведут качественную мойку и консервацию элементов подкапотного пространства вашего автомобиля в короткие сроки. Мы гарантируем, что вы останетесь довольны результатом! >
                 </description>
-                <param name="Рейтинг">4.8</param>
-                <param name="Число отзывов">103</param>
-                <param name="Годы опыта">10</param>
                 <param name="Регион">Краснодар</param>
-                <param name="Конверсия">13%</param>
                 <param name="Исполнитель">MGS-Tuning Studio</param>
             </offer>
             <offer id="805333488851" available="true">
                 <picture>https://static.tildacdn.com/stor3031-3731-4032-a661-383832353136/77687920.png</picture>
                 <url>https://mgs-tuning-studio.com/ustranenie_vmyatin</url>
-                <price>от 1000.00</price>
-                <currencyId>RUB</currencyId>
+                <price from="true">1000.00</price>
+                <currencyId>RUR</currencyId>
+                <set-ids>Deteyling</set-ids>
                 <categoryId>394172036301</categoryId>
                 <name>Устранение вмятин без покраски</name>
                 <description>
-                <![CDATA[ Мастера студии детейлинга MGS-Tuning готовы предложить вам услугу устранения вмятин без покраски. ]]>
+                <Мастера студии детейлинга MGS-Tuning готовы предложить вам услугу устранения вмятин без покраски. >
                 </description>
-                <param name="Рейтинг">4.8</param>
-                <param name="Число отзывов">103</param>
-                <param name="Годы опыта">10</param>
                 <param name="Регион">Краснодар</param>
-                <param name="Конверсия">13%</param>
                 <param name="Исполнитель">MGS-Tuning Studio</param>
             </offer>
             <offer id="299207808371" available="true">
                 <picture>https://static.tildacdn.com/stor3232-6663-4661-a232-643964333737/43812216.png</picture>
                 <url>https://mgs-tuning-studio.com/ustanovka_detaley</url>
-                <price>от 500.00</price>
-                <currencyId>RUB</currencyId>
+                <price from="true">500.00</price>
+                <currencyId>RUR</currencyId>
+                <set-ids>malyarnie_i_kuzovnie_raboti</set-ids>
                 <categoryId>808904437521</categoryId>
                 <name>Арматурные работы</name>
                 <description>
-                <![CDATA[ В студии детейлинга MGS-Tuning работают мастера которые бережно и ответственно подходят ко всем арматурным работам. Многолетний опыт в данной сфере позволяет нам гарантировать, что результат обязательно вас порадует! ]]>
+                <В студии детейлинга MGS-Tuning работают мастера которые бережно и ответственно подходят ко всем арматурным работам. Многолетний опыт в данной сфере позволяет нам гарантировать, что результат обязательно вас порадует! >
                 </description>
-                <param name="Рейтинг">4.7</param>
-                <param name="Число отзывов">108</param>
-                <param name="Годы опыта">10</param>
                 <param name="Регион">Краснодар</param>
-                <param name="Конверсия">14%</param>
                 <param name="Исполнитель">MGS-Tuning Studio</param>
             </offer>
             <offer id="243024152121" available="true">
                 <picture>https://static.tildacdn.com/stor3136-3965-4034-a437-313933626163/26738890.png</picture>
                 <url>https://mgs-tuning-studio.com/shumoizolyaciya</url>
-                <price>от 10000.00</price>
-                <currencyId>RUB</currencyId>
+                <price from="true">10000.00</price>
+                <currencyId>RUR</currencyId>
+                <set-ids>malyarnie_i_kuzovnie_raboti</set-ids>
                 <categoryId>808904437521</categoryId>
                 <name>Шумоизоляция салона автомобиля</name>
                 <description>
-                <![CDATA[ В студии детейлинга MGS-Tuning мы обработаем наиболее вибро-нагруженные части кузова, а именно:<br /><ul><li style="text-align: left;">моторный отсек, крышу;</li><li style="text-align: left;">двери и перегородки, поверхность багажника, капот;</li><li style="text-align: left;">Пол салона и багажника и арки колес.</li></ul> ]]>
+                <В студии детейлинга MGS-Tuning мы обработаем наиболее вибро-нагруженные части кузова, а именно:<br /><ul><li style="text-align: left;">моторный отсек, крышу;</li><li style="text-align: left;">двери и перегородки, поверхность багажника, капот;</li><li style="text-align: left;">Пол салона и багажника и арки колес.</li></ul> >
                 </description>
-                <param name="Рейтинг">4.7</param>
-                <param name="Число отзывов">108</param>
-                <param name="Годы опыта">10</param>
                 <param name="Регион">Краснодар</param>
-                <param name="Конверсия">14%</param>
                 <param name="Исполнитель">MGS-Tuning Studio</param>
             </offer>
             <offer id="692992667801" available="true">
                 <picture>https://static.tildacdn.com/stor6432-6333-4831-b439-333731363862/23127990.png</picture>
                 <url>https://mgs-tuning-studio.com/pokraska_supportov</url>
-                <price>от 25000.00</price>
-                <currencyId>RUB</currencyId>
+                <price from="true">25000.00</price>
+                <currencyId>RUR</currencyId>
+                <set-ids>malyarnie_i_kuzovnie_raboti</set-ids>
                 <categoryId>808904437521</categoryId>
                 <name>Покраска суппортов</name>
                 <description>
-               <![CDATA[ <p style="text-align: left;">В студии детейлинга MGS-Tuning работают мастера своего дела, которые качественно и в короткие сроки произведут порошковую покраску суппортов. Использование высоко-качественных материалов позволяет нам гарантировать, что результат обязательно вас порадует!</p> ]]>
+               <<p style="text-align: left;">В студии детейлинга MGS-Tuning работают мастера своего дела, которые качественно и в короткие сроки произведут порошковую покраску суппортов. Использование высоко-качественных материалов позволяет нам гарантировать, что результат обязательно вас порадует!</p> >
                 </description>
-                <param name="Рейтинг">4.8</param>
-                <param name="Число отзывов">108</param>
-                <param name="Годы опыта">10</param>
                 <param name="Регион">Краснодар</param>
-                <param name="Конверсия">14%</param>
                 <param name="Исполнитель">MGS-Tuning Studio</param>
             </offer>
             <offer id="592547277901" available="true">
                 <picture>https://static.tildacdn.com/stor6664-3731-4430-b836-303765373839/40447952.png</picture>
                 <url>https://mgs-tuning-studio.com/pokraska_detaley</url>
-                <price>от 5000.00</price>
-                <currencyId>RUB</currencyId>
+                <price from="true">5000.00</price>
+                <currencyId>RUR</currencyId>
+                <set-ids>malyarnie_i_kuzovnie_raboti</set-ids>
                 <categoryId>808904437521</categoryId>
                 <name>Покраска деталей автомобиля</name>
                 <description>
-               <![CDATA[ <p style="text-align: left;">Мастера студии детейлинга MGS-Tuning работают с высокоточным оборудованием по подбору краски, а это значит что переход между окрашенными деталями и заводским лакокрасочным покрытием будет незаметным.</p> ]]>
+               <<p style="text-align: left;">Мастера студии детейлинга MGS-Tuning работают с высокоточным оборудованием по подбору краски, а это значит что переход между окрашенными деталями и заводским лакокрасочным покрытием будет незаметным.</p> >
                 </description>
-                <param name="Рейтинг">4.8</param>
-                <param name="Число отзывов">108</param>
-                <param name="Годы опыта">10</param>
                 <param name="Регион">Краснодар</param>
-                <param name="Конверсия">14%</param>
                 <param name="Исполнитель">MGS-Tuning Studio</param>
             </offer>
             <offer id="253269593021" available="true">
                 <picture>https://static.tildacdn.com/stor3030-3035-4563-b965-663339643933/37320362.png</picture>
                 <url>https://mgs-tuning-studio.com/tuning_vuhlopnoy_sistemu</url>
-                <price>от 6000.00</price>
-                <currencyId>RUB</currencyId>
+                <price from="true">6000.00</price>
+                <currencyId>RUR</currencyId>
+                <set-ids>vihlopnaya_sistema</set-ids>
                 <categoryId>404310180411</categoryId>
                 <name>Тюнинг выхлопной системы</name>
                 <description>
-               <![CDATA[ <p style="text-align: left;">Поможем вам улучшить звук и внешний вид вашего автомобиля.</p> ]]>
+               <<p style="text-align: left;">Поможем вам улучшить звук и внешний вид вашего автомобиля.</p> >
                 </description>
-                <param name="Рейтинг">4.7</param>
-                <param name="Число отзывов">108</param>
-                <param name="Годы опыта">10</param>
                 <param name="Регион">Краснодар</param>
-                <param name="Конверсия">14%</param>
                 <param name="Исполнитель">MGS-Tuning Studio</param>
             </offer>
             <offer id="867447390131" available="true">
                 <picture>https://static.tildacdn.com/stor3661-6532-4237-b438-616336353862/65171444.png</picture>
                 <url>https://mgs-tuning-studio.com/ustanovka_vuhlopa</url>
-                <price>от 10000.00</price>
-                <currencyId>RUB</currencyId>
+                <price from="true">10000.00</price>
+                <currencyId>RUR</currencyId>
+                <set-ids>vihlopnaya_sistema</set-ids>
                 <categoryId>404310180411</categoryId>
                 <name>Установка активного выхлопа</name>
                 <description>
-               <![CDATA[ <p style="text-align: left;">Мастера нашей студии помогут подобрать вам необходимую систему активного выхлопа и установят ее в кратчайшие сроки</p> ]]>
+               <<p style="text-align: left;">Мастера нашей студии помогут подобрать вам необходимую систему активного выхлопа и установят ее в кратчайшие сроки</p> >
                 </description>
-                <param name="Рейтинг">4.7</param>
-                <param name="Число отзывов">108</param>
-                <param name="Годы опыта">10</param>
                 <param name="Регион">Краснодар</param>
-                <param name="Конверсия">14%</param>
                 <param name="Исполнитель">MGS-Tuning Studio</param>
             </offer>
             <offer id="198148505511" available="true">
                 <picture>https://static.tildacdn.com/stor6635-3132-4866-a435-623533343537/41728490.png</picture>
                 <url>https://mgs-tuning-studio.com/individualni-poshiv-kovrov</url>
-                <price>от 15000.00</price>
-                <currencyId>RUB</currencyId>
+                <price from="true">15000.00</price>
+                <currencyId>RUR</currencyId>
+                <set-ids>Individualniy_poshiv_kovrov</set-ids>
                 <categoryId>404310180411</categoryId>
                 <name>Комплекты ковров премиум-класса и аксессуары</name>
                 <description>
-              <![CDATA[ <p style="text-align: left;">Студия детейлинга MGS-Tuning Studio изготовит для вас комплект ковров для автомобиля премиального качества по индивидуальному дизайну.</p> ]]>
+              <<p style="text-align: left;">Студия детейлинга MGS-Tuning Studio изготовит для вас комплект ковров для автомобиля премиального качества по индивидуальному дизайну.</p> >
                 </description>
-                <param name="Рейтинг">4.9</param>
-                <param name="Число отзывов">158</param>
-                <param name="Годы опыта">10</param>
                 <param name="Регион">Краснодар</param>
-                <param name="Конверсия">16%</param>
                 <param name="Исполнитель">MGS-Tuning Studio</param>
             </offer>
         </offers>
